@@ -1,0 +1,51 @@
+{
+   "abstract" : "A simple interface to Gtk3's complex MVC list widget",
+   "author" : [
+      "Thierry Vignaud <tvignaud@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.44, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "open_source"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Gtk3-SimpleList",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.64"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Gtk3" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "X_bucktracker" : "https://github.com/soig/Gtk3-SimpleList/issues",
+      "homepage" : "https://github.com/soig/Gtk3-SimpleList"
+   },
+   "version" : "0.21",
+   "x_repository" : {
+      "type" : "git",
+      "url" : "https://github.com/soig/Gtk3-SimpleList.git",
+      "web" : "https://github.com/soig/Gtk3-SimpleList"
+   },
+   "x_serialization_backend" : "JSON::PP version 4.04"
+}
